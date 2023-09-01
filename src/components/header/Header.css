@@ -46,4 +46,8 @@ header{
     .header {
         height: 100vh;
     }
+
+    .header__socials{
+        display: none;
+    }
 }
