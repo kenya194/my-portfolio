@@ -20,7 +20,7 @@ const Navbar = () => {
     <a href='#experience' onClick={()=> setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}> <FaLaptopCode/> </a>
     <a href='#services' onClick={()=> setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}> <RiCustomerServiceLine/> </a>
     <a href='#contact' onClick={()=> setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}> <IoIosContact/></a>
-  </nav>
+    </nav>
     )
   }
 
