@@ -1,12 +1,36 @@
 .services__container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
 .services__container > div{
     background: var(--color-bg-variant);
-        padding: 2.4rem 5rem;
-        border-radius: 2rem;
-        border: 1px solid transparent;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    padding: 2.4rem 5rem;
+}
+
+.services__head{
+    padding: 2rem;
+    border-radius: 0 0 1rem 1rem;
+
+}
+
+.services__head h3{
+    color: var(--color-bg);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.services__container>div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.services__container>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
 }

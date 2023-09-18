@@ -12,7 +12,9 @@ const Service = () => {
 
         <div className="container services__container">
           <div className="services__sales">
+            <div className="services__head">
             <h3>Sales Marketing</h3>
+            </div>
               <div className="services__content">
                 <article className="services__details">
                   <BsFillClipboard2CheckFill />
@@ -35,7 +37,9 @@ const Service = () => {
           </div>
 
           <div className="services__web">
+            <div className="services__head">
             <h3>Web Development</h3>
+            </div>
               <div className="services__content">
                 <article className="services__details">
                   <BsFillFileCodeFill />
@@ -58,7 +62,9 @@ const Service = () => {
           </div>
 
           <div className="services__writing">
+            <div className="services__head">
             <h3>Writing</h3>
+            </div>
               <div className="services__content">
                 <article className="services__details">
                   <BsVectorPen />
