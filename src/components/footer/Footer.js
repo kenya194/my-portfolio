@@ -8,7 +8,7 @@ const Footer = () => {
       <a href='#header' className='footer__logo'>Black Mirth</a>
 
       <ul className='permalinks'>
-        <li><a href='#header'>Home</a></li>
+        <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>
         <li><a href='#experience'>Experience</a></li>
         <li><a href='#service'>Service</a></li>
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
 
         <div className='footer__copyright'>
-          <small> Ernest's personal site. All rights reserved.</small>
+          <small>&copy; Ernest's personal site. All rights reserved.</small>
         </div>
       
     </footer>
