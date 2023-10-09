@@ -1,12 +1,12 @@
 import React from 'react'
 
-import Header from './components/header/Header';
+import Header from './components/header/header';
 // import Contact from './components/contact/Contact';
-import About from './components/about/About';
-import Experience from './components/experience/Experience';
-import Footer from './components/footer/Footer';
-import Navbar from './components/navbar/Navbar';
-import Service from './components/service/Service';
+import About from './components/about/about';
+import Experience from './components/experience/experience';
+import Footer from './components/footer/footer';
+import Navbar from './components/navbar/navbar';
+import Service from './components/service/service';
 
 
 // import './App.css';

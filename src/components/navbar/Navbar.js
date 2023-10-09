@@ -1,5 +1,5 @@
 import React from 'react'
-import './Navbar.css'
+import './navbar.css'
 import {AiOutlineHome} from 'react-icons/ai'
 import {BiUserPin} from 'react-icons/bi'
 import {FaLaptopCode} from 'react-icons/fa'

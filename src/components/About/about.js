@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+import './about.css'
 import pic from '../../Assets/pexels-oussama-bergaoui-463684.jpg'
 import {FaAward} from 'react-icons/fa'
 import {ImBooks} from 'react-icons/im'

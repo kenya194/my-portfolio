@@ -1,8 +1,8 @@
 import React from 'react'
-import './Header.css'
+import './header.css'
 import CTA from './CTA.js'
 import profile from '../../Assets/Mine.jpg'
-import HeaderSocials from './HeaderSocials'
+import HeaderSocials from './headerSocials'
 
 
 
