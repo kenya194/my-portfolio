@@ -1,5 +1,5 @@
 import React from 'react'
-import './Service.css'
+import './service.css'
 import{BsFillClipboard2CheckFill} from 'react-icons/bs'
 import{BsFillFileCodeFill} from 'react-icons/bs'
 import{BsVectorPen} from 'react-icons/bs'
