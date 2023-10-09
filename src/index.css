@@ -33,7 +33,7 @@ body{
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/Assets/pexels-cátia-matos-1072179.jpg);
+  background-image: url(../src/assets/pexels-cátia-matos-1072179.jpg);
   font-family: 'Playfair Display', serif;
 }
 
