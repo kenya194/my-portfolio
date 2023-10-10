@@ -2,13 +2,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    justify-content: center;
 }
 
-.services__container > div{
+.services{
     background: var(--color-bg-variant);
-    border-radius: 2rem;
+    border-radius: 0 0 2rem 2rem;
     border: 1px solid transparent;
-    padding: 2.4rem 5rem;
+    padding: 2.4rem 2.4rem;
 }
 
 .services__head{
@@ -44,17 +45,12 @@
 
 @media screen and (max-width: 1024px) {
     .services__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
     }
 
-    .services__container>div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-
-    .services__content {
-        padding: 1rem;
+    .services{
+        height: auto;
     }
 }
 
@@ -62,13 +58,8 @@
 
 @media screen and (max-width: 600px) {
     .services__container {
+        grid-template-columns: 1fr;
         gap: 1rem;
-    }
-
-    .services__container>div {
-        width: 100%;
-        padding: 2rem 2rem;
-
     }
 
 }

@@ -11,7 +11,7 @@ const Service = () => {
         <h2>Services</h2>
 
         <div className="container services__container">
-          <div className="services__sales">
+          <div className="services">
             <div className="services__head">
             <h3>Sales Marketing</h3>
             </div>
@@ -36,7 +36,7 @@ const Service = () => {
               </div>
           </div>
 
-          <div className="services__web">
+          <div className="services">
             <div className="services__head">
             <h3>Web Development</h3>
             </div>
@@ -61,7 +61,7 @@ const Service = () => {
               </div>
           </div>
 
-          <div className="services__writing">
+          <div className="services">
             <div className="services__head">
             <h3>Writing</h3>
             </div>
