@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import pic from '../../Assets/pexels-oussama-bergaoui-463684.jpg'
+import pic from '../../assets/pexels-oussama-bergaoui-463684.jpg'
 import {FaAward} from 'react-icons/fa'
 import {ImBooks} from 'react-icons/im'
 import {FaFreeCodeCamp} from 'react-icons/fa'
