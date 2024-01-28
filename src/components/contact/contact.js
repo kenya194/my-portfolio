@@ -18,10 +18,11 @@ const Contact = () => {
     emailjs.sendForm('service_w69rj6q', 'template_f3oxfaf', form.current, 'yn5Ew2WNVBfYPSx7c')
     .then((result) => {
       console.log(result.text);
-      console.log("Message sent");
+      alert("Message sent");
     }, (error) => {
       console.log(error.text);
     });
+    e.target.reset();
   };
 
   return (
