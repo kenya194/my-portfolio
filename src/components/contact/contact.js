@@ -4,7 +4,7 @@ import {MdOutlineMailOutline} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
 import {FaSnapchat} from 'react-icons/fa'
 import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from 'emailjs.com';
 
 
 
