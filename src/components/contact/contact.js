@@ -4,7 +4,7 @@ import {MdOutlineMailOutline} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
 import {FaSnapchat} from 'react-icons/fa'
 import { useRef } from 'react';
-import emailjs from 'emailjs.com';
+import emailjs from '@emailjs/browser';
 
 
 
@@ -15,13 +15,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_m2qnnj8', 'template_f3oxfaf', form.current, 'ksMz7GEOAlw2mPbzBfzbI')
+    emailjs.sendForm('service_w69rj6q', 'template_f3oxfaf', form.current, 'yn5Ew2WNVBfYPSx7c')
     .then((result) => {
       console.log(result.text);
+      console.log("Message sent");
     }, (error) => {
       console.log(error.text);
     });
-    e.target.reset();
   };
 
   return (
@@ -53,8 +53,8 @@ const Contact = () => {
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your full name'  className='placeHolder-text' required />
-          <input type="email" name='email' placeholder='Your Email' className='placeHolder-text' required />
+          <input type="text" name='user_name' placeholder='Your full name'  className='placeHolder-text' required />
+          <input type="email" name='user_email' placeholder='Your Email' className='placeHolder-text' required />
           <textarea name='message' rows='7' placeholder='Your Message' className='placeHolder-text' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
