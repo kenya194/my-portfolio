@@ -13,30 +13,30 @@ const Service = () => {
         <div className="container services__container">
           <div className="services">
             <div className="services__head">
-            <h3>Sales Marketing</h3>
+            <h3> Consultation Offers</h3>
             </div>
               <div className="services__content">
                 <article className="services__details">
                   <BsFillClipboard2CheckFill />
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, architecto?</p>
+                  <p>Developing standard websites including E-commence and portfolio sites.( Freelancing)</p>
                 </article>
                 <article className="services__details">
                   <BsFillClipboard2CheckFill />
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, architecto?</p>
+                  <p>Building standard progressive web applications and mobile applications </p>
                 </article>
                 <article className="services__details">
                   <BsFillClipboard2CheckFill />
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, architecto?</p>
+                  <p>Building AI agents to simplify tasks using LLM models and algorithms</p>
                 </article>
                 <article className="services__details">
                   <BsFillClipboard2CheckFill />
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, architecto?</p>
+                  <p>Advice in the tech space, and choosing career paths </p>
                 </article>
                 
               </div>
           </div>
 
-          <div className="services">
+          {/* <div className="services">
             <div className="services__head">
             <h3>Web Development</h3>
             </div>
@@ -59,9 +59,9 @@ const Service = () => {
                 </article>
                 
               </div>
-          </div>
+          </div> */}
 
-          <div className="services">
+          {/* <div className="services">
             <div className="services__head">
             <h3>Writing</h3>
             </div>
@@ -84,7 +84,7 @@ const Service = () => {
                 </article>
                 
               </div>
-          </div>
+          </div> */}
 
         </div>
     </section>
